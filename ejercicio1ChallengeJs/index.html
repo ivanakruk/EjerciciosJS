@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>¿Qué te conviene más?</title>
+</head>
+<body>
+
+    <div class="containerForm">
+        <form action="">
+            <h2>Comparación de gastos vs beneficios de pagar una subscripción</h2>
+            <div class="containerInput">
+                <label for="amountMovies">Cantidad de peliculas que ves por mes: </label>
+                <input name="amountMovies" type="number" id="numberMovies">  
+            </div>
+           
+            <p>Plataformas donde encuentras tus peliculas/series: </p>
+
+            <div class="checkboxItems">
+                <div class="checkboxItems netFlix">
+                    <input type="checkbox" name="netflix" id="inputNetflix" value="460">
+                    <label for="netflix">Netflix 460$ x mes</label>  
+                </div>
+                <div class="checkboxItems hbo">
+                  <input type="checkbox" name="hboMax" id="inputHbo" value="323"> 
+                  <label for="hboMax">HBO MAX 323$ x mes</label>                
+                </div>
+                <div class="checkboxItems disney">
+                   <input type="checkbox" name="disneyC" id="inputDisney" value="385">
+                   <label for="disneyC">Disney Plus 385$ x mes</label>
+                </div>               
+            </div>
+            <div class="containerButton">
+                <button type="submit" id="calcButton">Calcular</button>
+            </div>
+        </form>
+        <div class="response" id="divPintarResul"></div>
+    </div>
+    <script src="./calculo.js"></script>
+</body>
+</html>

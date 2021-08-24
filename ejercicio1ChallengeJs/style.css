@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/280/non_2x/floral-background-with-cherry-blossoms-in-full-bloom-isolated-on-a-white-background-free-vector.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.containerForm{
+    width: 45%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 3em;
+}
+div{
+    margin: 1.5em 0em;
+}
+h2{
+    padding-left: .5em;
+}
+.containerButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.response{
+    color: rgb(150, 2, 170);
+    font-size: 1em;
+}
+button{
+    width: 250px;
+    height: 60px;
+    padding: 0.5em;
+    border: none;
+    background-color: rgb(255, 113, 132);
+    box-shadow: 0px 1px 8px 1px #000000;
+    font-size: 1em;
+}
+button:hover{
+    background-color: beige;
+    cursor: pointer;
+    color:rgb(255, 113, 132);
+}

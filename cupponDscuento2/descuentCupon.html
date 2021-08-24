@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando</title>
+</head>
+<body>
+    <header>
+        <h1>Si tenes un cupón usalo acá!</h1>
+    </header>
+    <form>
+        <label for="PriceInput">Escribe el precio del producto: </label>
+        <input type="number" id="PriceInput">
+
+        <label for="CouponInput">Escribe tu cupón de Descuento: </label>
+        <input type="text" id="CouponInput">
+
+        <button type="button" onclick="calcularPrecioCupon ()">Agregar cupón!</button>
+
+        <p id="ResultPrecio"></p>
+    </form>
+    <script src="./descuentCupon.js"></script>
+</body>
+</html>
